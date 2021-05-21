@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Color-flipper</title>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div class="container container-center">
+      <!-- <h2>Colour Flipper</h2> -->
+      <h2 style="margin-top: 10rem;" class="button">
+        Color ID : <span class="display"> #ffffff</span>
+      </h2>
+
+      <div>
+        <button onClick="flipColor()" class="button button-fix-width">
+          start
+        </button>
+        <button onClick="stop()" class="button button-fix-width">
+          stop
+        </button>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
